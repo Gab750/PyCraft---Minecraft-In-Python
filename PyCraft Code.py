@@ -87,7 +87,7 @@ class Hand(Entity):
     def __init__(self):
         super().__init__(
             parent = camera.ui,
-            model = 'C:/Users/Gabri/Desktop/assets/arm.obj',
+            model = 'assets/arm.obj',
             texture = arm_texture,
             scale = 0.2,
             rotation = Vec3(150,-10,0),
